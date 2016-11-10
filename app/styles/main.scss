@@ -104,13 +104,13 @@ $icon-font-path: '../fonts/';
 
 .main-body {
   padding-top: 30px;
-  background: #ffe5eb;
+  background: rgba(0,0,0,0);
 
   .row {
     background: #ffe5eb;
   }
 
-  h3 {
+  h3, h2 {
     font-family: 'Roboto Condensed';
     color: #e82548;
   }
@@ -133,6 +133,25 @@ $icon-font-path: '../fonts/';
   }
 }
 
+.text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+
+  hr {
+    margin: 15px auto;
+    width: 10%;
+  }
+  
+  p {
+    color: white;
+  }
+}
+
+.opaque {
+  background: #ffe8f2;
+}
+
 .section {
   padding-bottom: 30px;
   padding-top: 30px;
@@ -140,7 +159,7 @@ $icon-font-path: '../fonts/';
 
 .vid-bg {
   z-index: -1;
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -156,7 +175,21 @@ $icon-font-path: '../fonts/';
 
   video.fillWidth {
     width: 100%;
+    height: 100%;
   }
+}
+
+.arena-bg {
+  z-index: -2;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: -25vh;
+
+  background: url("../images/arena.png");
+
 }
 
 /* Custom page header */
