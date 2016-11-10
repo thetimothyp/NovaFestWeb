@@ -33,9 +33,9 @@
       <div class="header navbar-fixed-top">
         <div class="col-md-8 col-md-offset-2">
           <ul class="custom-nav">
-            <li class="active"><a href="#">HOME</a></li>
-            <li><a href="#">OUR TEAM</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li class="active" id="home-nav"><a class="nav-item" href="#">HOME</a></li>
+            <li id="team-nav"><a class="nav-item" href="#">OUR TEAM</a></li>
+            <li><a class="nav-item" href="#">CONTACT</a></li>
           </ul>
         </div>
       </div>
@@ -53,32 +53,93 @@
       </div>
     </div>
 
-    <div class="container" id="trans">
+    <div class="container trans" id="white">
       <div class="row">
         <div class="splash col-md-4 col-md-offset-4">
-          <img id="logo" src="images/logo.png">
+          <img id="logo" src="images/logo_solid.png">
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container section" id="pink">
       <div class="row col-md-6 col-md-offset-3">
-        <div class="col-md-4">
-          Hello
-        </div>
-        <div class="col-md-4">
-          Hello
-        </div>
-        <div class="col-md-4">
-          Hello
+        <div class="hero">
+          <h2>LOREM IPSUM DOLOR SIT AMET...</h2>
+          <hr>
+          <div class="col-md-10 col-md-offset-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus, quam non sagittis posuere, nisi ipsum finibus mi, id tempor nibh augue nec dolor. Maecenas a justo convallis, venenatis lacus eu, scelerisque felis. Praesent vehicula fringilla efficitur. Suspendisse potenti.</p>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="footer">
-        <div class="col-md-8 col-md-offset-2">
-          <p>♥ from the Yeoman team</p>
+    <div class="container main-body section">
+      <div class="col-md-6 col-md-offset-3">
+        <div>
+          <div class="col-md-4 col-md-offset-2">
+            <img src="images/player.png">
+          </div>
+          <div class="col-md-4 section-text">
+            <h3>LOREM IPSUM DOLOR SIT AMET</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus, quam non sagittis posuere, nisi ipsum finibus mi, id tempor nibh augue nec dolor. Maecenas a justo convallis, venenatis lacus eu, scelerisque felis.</p>
+          </div>
         </div>
       </div>
+    </div>
+
+    <div class="container section" id="team">
+      <div class="col-md-6 col-md-offset-3">
+        <h2>THE RUDE SANDSTORM</h2>
+        <hr>
+        <div class="row">
+          <div class="team-member col-md-4">
+            <img src="images/player.png">
+            <h4>MARCELO AUTRAN</h4>
+            <p>Lead Developer</p>
+          </div>
+          <div class="team-member col-md-4">
+            <img src="images/player.png">
+            <h4>LAN CAO</h4>
+            <p>Lead Developer</p>
+          </div>
+          <div class="team-member col-md-4">
+            <img src="images/player.png">
+            <h4>BRANDON CHENG</h4>
+            <p>Project Manager + Developer</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="team-member col-md-4">
+            <img src="images/player.png">
+            <h4>EDWARD DUONG</h4>
+            <p>Sound Engineer</p>
+          </div>
+          <div class="team-member col-md-4">
+            <img src="images/player.png">
+            <h4>JENNY TRAN</h4>
+            <p>Lead Artist</p>
+          </div>
+          <div class="team-member col-md-4">
+            <img src="images/player.png">
+            <h4>HECTOR VEGA</h4>
+            <p>Writer</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="team-member col-md-4 col-md-offset-4">
+            <img src="images/player.png">
+            <h4>TIM PARK</h4>
+            <p>Graphic Designer + Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer">
+        <div class="col-md-8 col-md-offset-2">
+          <p>♥ from The Rude Sandstorm team</p>
+        </div>
     </div>
 
     <div class="vid-bg">
@@ -121,6 +182,9 @@
     
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/jquery.color-2.1.2.min.js"></script>
+    <script src="scripts/noframework.waypoints.min.js"></script>
+    <script src="scripts/scroll.js"></script>
     <!-- endbuild -->
   </body>
 </html>
