@@ -311,3 +311,17 @@ video.small-vid {
     }
   }
 }
+
+@media (max-width: 480px) {
+  .header {
+    display:none;
+  }
+
+  .arena-bg {
+    background: #222;
+
+    img {
+      display: none;
+    }
+  }
+}
