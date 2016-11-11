@@ -123,7 +123,7 @@ $icon-font-path: '../fonts/';
 
   p {
     font-family: 'Open Sans';
-    color: #777;
+    color: #444;
     letter-spacing: 0.03em;
     line-height: 1.5em;
   }
@@ -131,6 +131,17 @@ $icon-font-path: '../fonts/';
   img {
     width: 100%;
   }
+}
+
+.novafest {
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.custom {
+  max-width: 1080px; 
+  margin: 0 auto;
 }
 
 .text {
@@ -149,7 +160,9 @@ $icon-font-path: '../fonts/';
 }
 
 .opaque {
-  background: #ffe8f2;
+  background: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section {
@@ -179,6 +192,10 @@ $icon-font-path: '../fonts/';
   }
 }
 
+video.small-vid {
+  width: 100%;
+}
+
 .arena-bg {
   z-index: -2;
   position: fixed;
@@ -188,7 +205,9 @@ $icon-font-path: '../fonts/';
   right: 0;
   margin-top: -25vh;
 
-  background: url("../images/arena.png");
+  img {
+    width: 100%;
+  }
 
 }
 
