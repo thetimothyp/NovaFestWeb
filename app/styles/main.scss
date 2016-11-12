@@ -19,16 +19,22 @@ $icon-font-path: '../fonts/';
 
 .container {
   width: 100%;
-  background: white;
+  background: #fafafa;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
+
+///////////////
+//
+// NAV BAR
+//
+///////////////
+
 .header,
 .marketing,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
-  background: white;
+  background: #fdfdfd;
 }
 
 .custom-nav {
@@ -123,12 +129,14 @@ $icon-font-path: '../fonts/';
   background: #e82548;
 }
 
+.dl-btn:active {
+  text-decoration: none;
+  color: white;
+  background: #ff4264;
+}
+
 .main-body {
   background: rgba(0,0,0,0);
-
-  .row {
-    background: #ffe5eb;
-  }
 
   h3, h2 {
     font-family: 'Roboto Condensed';
@@ -188,7 +196,7 @@ $icon-font-path: '../fonts/';
 }
 
 .opaque {
-  background: #f5f5f5;
+  background: #f0f0f0;
 }
 
 .section {
@@ -254,6 +262,7 @@ video.small-vid {
   padding-top: 10px;
   color: #777;
   text-align: center;
+  background: #f5f5f5;
 }
 
 .container-narrow > hr {
@@ -309,6 +318,11 @@ video.small-vid {
       font-family: 'Roboto Condensed';
       color: #999;
     }
+
+    img {
+      width: 80%;
+      padding: 20px;
+    }
   }
 }
 
@@ -323,5 +337,9 @@ video.small-vid {
     img {
       display: none;
     }
+  }
+
+  .vid-bg {
+    margin-top: -54.2vh;
   }
 }
