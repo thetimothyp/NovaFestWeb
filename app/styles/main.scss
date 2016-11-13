@@ -326,6 +326,53 @@ video.small-vid {
   }
 }
 
+#hazards {
+  text-align: center;
+  h1 {
+    font-family: 'Roboto Condensed';
+    color: #e82548;
+    margin: 10px 0;
+  }
+
+  hr {
+    border-top: 1px solid #e82548;
+    width: 10%;
+    margin: 30px auto;
+  }
+}
+
+.grid {
+  .grid-item {
+    margin: 2%;
+    width: 20%;
+    float: left;
+    transition: background 0.4s;
+
+    &:hover {
+      background: #dedede;
+      cursor: pointer;
+    }
+
+    &.selected {
+      background: #ccc;
+    }
+
+    img {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+}
+
+#trap-detail {
+  text-align: center;
+
+  #trap-img {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
 @media (max-width: 480px) {
   .header {
     display:none;
