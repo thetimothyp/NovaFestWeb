@@ -35,7 +35,8 @@ var traps = [
 	{
 		name : 'POOP',
 		imgURL : 'images/traps/poop.png',
-		desc : 'This is a Poop.',
+		desc : 'An interstellar poop with an appetite for human flesh, this \
+			radioactive turd kills players on contact.',
 		vidURL : 'images/bg.mp4'
 	},
 	{
