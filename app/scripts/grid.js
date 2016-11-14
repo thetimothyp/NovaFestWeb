@@ -11,6 +11,8 @@ $('.grid-item').on('click', function(e) {
 		$('#trap-name').text(activeTrap.name);
 		$('#trap-desc').text(activeTrap.desc);
 		$('#trap-img').attr('src', activeTrap.imgURL);
+		$('#trap-vid-src').attr('src', activeTrap.vidURL);
+		$('#trap-vid')[0].load();
 		$(this).fadeIn();
 	})
 
@@ -27,31 +29,37 @@ var traps = [
 	{
 		name : 'POOP',
 		imgURL : 'images/traps/poop.png',
-		desc : 'This is a Poop.'
+		desc : 'This is a Poop.',
+		vidURL : 'images/bg.mp4'
 	},
 	{
 		name : 'PLACEHOLDER',
 		imgURL : 'images/player.png',
-		desc : 'REPLACE THIS STUFF'
+		desc : 'REPLACE THIS STUFF',
+		vidURL : 'images/bg.mp4'
 	},
 	{
 		name : 'STAR CANNON',
 		imgURL : 'images/traps/star_cannon.png',
-		desc : 'This is a Star Cannon.'
+		desc : 'This is a Star Cannon.',
+		vidURL : 'images/bg.mp4'
 	},
 	{
 		name : 'TELEPORTER',
 		imgURL : 'images/traps/teleporter.png',
-		desc : 'This is a Teleporter.'
+		desc : 'This is a Teleporter.',
+		vidURL : 'images/trap_videos/teleporter.mp4'
 	},
 	{
 		name : 'ICE PATCH',
 		imgURL : 'images/traps/ice.png',
-		desc : 'This is an Ice Patch.'
+		desc : 'This is an Ice Patch.',
+		vidURL : 'images/trap_videos/ice.mp4'
 	},
 	{
 		name : 'THE GHOSTIES',
 		imgURL : 'images/traps/ghosties.png',
-		desc : 'This is a Ghostie.'
+		desc : 'This is a Ghostie.',
+		vidURL : 'images/bg.mp4'
 	}
 ];

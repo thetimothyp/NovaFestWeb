@@ -171,8 +171,12 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-md-offset-1" id="trap-detail">
-          <img id="trap-img" src="images/traps/poop.png">
+        <div class="col-md-6" id="trap-detail">
+          <!-- USE IMAGE IN CASE BROWSER DOESN'T SUPPORT HTML5 VIDEO -->
+          <!-- <img id="trap-img" src="images/traps/poop.png"> -->
+          <video controls muted class="small-vid" id="trap-vid">
+            <source id="trap-vid-src" src="images/trap_videos/teleporter.mp4" type="video/mp4" />
+          </video>
           <h3 id="trap-name">THE POOP</h3>
           <p id="trap-desc">This is a poop.</p>
         </div>

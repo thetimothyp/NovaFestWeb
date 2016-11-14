@@ -230,6 +230,11 @@ video.small-vid {
   width: 100%;
 }
 
+#trap-vid {
+  width: 80%;
+  margin: 20px;
+}
+
 .arena-bg {
   z-index: -2;
   position: fixed;
@@ -366,11 +371,14 @@ video.small-vid {
 
 #trap-detail {
   text-align: center;
+  padding: 30px;
 
   #trap-img {
     width: 90%;
     padding: 20px;
   }
+
+
 }
 
 @media (max-width: 480px) {
