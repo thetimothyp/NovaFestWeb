@@ -8,8 +8,6 @@ $('.grid-item').on('click', function(e) {
 	var activeTrap = getTrap(activeTrapURL);
 
 	$('#trap-detail').fadeOut(400, function() {
-		$('#loading img').attr('src', '');
-		$('#loading img').attr('src', 'images/loading.gif');
 		$('#loading').fadeIn(200);
 		var self = $(this);
 		$('#trap-vid-src').attr('src', activeTrap.vidURL);
@@ -19,7 +17,7 @@ $('.grid-item').on('click', function(e) {
 		$('#trap-img').attr('src', activeTrap.imgURL);
 		$('#trap-vid').on('canplaythrough', function() {
 			$('#loading').fadeOut(200, function() {
-				self.fadeIn(400);
+				self.fadeIn(300);
 			});
 		});
 	})
