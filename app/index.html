@@ -171,14 +171,20 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6" id="trap-detail">
-          <!-- USE IMAGE IN CASE BROWSER DOESN'T SUPPORT HTML5 VIDEO -->
-          <!-- <img id="trap-img" src="images/traps/poop.png"> -->
-          <video controls muted class="small-vid" id="trap-vid">
-            <source id="trap-vid-src" src="images/trap_videos/teleporter.mp4" type="video/mp4" />
-          </video>
-          <h3 id="trap-name">THE POOP</h3>
-          <p id="trap-desc">This is a poop.</p>
+        <div class="col-md-6">
+          <div id="trap-detail">
+            <!-- USE IMAGE IN CASE BROWSER DOESN'T SUPPORT HTML5 VIDEO -->
+            <!-- <img id="trap-img" src="images/traps/poop.png"> -->
+            <video autoplay loop muted class="small-vid" id="trap-vid">
+              <source id="trap-vid-src" src="images/trap_videos/teleporter.mp4" type="video/mp4" />
+            </video>
+            <h3 id="trap-name">THE POOP</h3>
+            <p id="trap-desc">This is a poop.</p>
+          </div>
+          <div id="loading">
+            <img src="images/loading.gif">
+            <h3 style="color: #555;" id="trap-name">LOADING HAZARD...</h3>
+          </div>
         </div>
       </div>
     </div>

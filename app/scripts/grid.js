@@ -7,13 +7,21 @@ $('.grid-item').on('click', function(e) {
 	var activeTrapURL = $(e.target).attr('src');
 	var activeTrap = getTrap(activeTrapURL);
 
-	$('#trap-detail').fadeOut(function() {
+	$('#trap-detail').fadeOut(400, function() {
+		$('#loading img').attr('src', '');
+		$('#loading img').attr('src', 'images/loading.gif');
+		$('#loading').fadeIn(200);
+		var self = $(this);
+		$('#trap-vid-src').attr('src', activeTrap.vidURL);
+		$('#trap-vid')[0].load();
 		$('#trap-name').text(activeTrap.name);
 		$('#trap-desc').text(activeTrap.desc);
 		$('#trap-img').attr('src', activeTrap.imgURL);
-		$('#trap-vid-src').attr('src', activeTrap.vidURL);
-		$('#trap-vid')[0].load();
-		$(this).fadeIn();
+		$('#trap-vid').on('canplaythrough', function() {
+			$('#loading').fadeOut(200, function() {
+				self.fadeIn(400);
+			});
+		});
 	})
 
 	
