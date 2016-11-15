@@ -3,14 +3,12 @@ var waypoint = new Waypoint({
   element: document.getElementById('pink'),
   handler: function(direction) {
     if (direction == 'down') {
-    	console.log('pink');
     	$('.header').animate({
-    		backgroundColor: "#e82548"
+    		backgroundColor: "#111"
     	}, 300);
-    	$('.nav-item').css('color', 'white');
-    	$('.active').css('border-bottom', '5px solid white');
+    	$('.nav-item').css('color', '#e82548');
+    	// $('.active').css('border-bottom', '5px solid white');
     } else {
-    	console.log('white');
     	$('.header').animate({
     		backgroundColor: "#ffffff"
     	}, 300);
@@ -28,12 +26,12 @@ var teamWaypoint = new Waypoint({
     	$('.active').css('border-bottom', 'none');
     	$('#home-nav').removeClass('active');
     	$('#team-nav').addClass('active');
-    	$('.active').css('border-bottom', '5px solid white');
+    	$('.active').css('border-bottom', '5px solid #e82548');
     } else {
     	$('.active').css('border-bottom', 'none');
     	$('#team-nav').removeClass('active');
     	$('#home-nav').addClass('active');
-    	$('.active').css('border-bottom', '5px solid white');
+    	$('.active').css('border-bottom', '5px solid #e82548');
     }
   },
   offset: 30

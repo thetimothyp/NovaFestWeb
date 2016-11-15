@@ -42,6 +42,7 @@ $icon-font-path: '../fonts/';
   float: right;
   font-size: 1.1em;
   list-style-type: none;
+  -webkit-backface-visibility: hidden;
 
   li {
     display: inline-block;
@@ -52,8 +53,7 @@ $icon-font-path: '../fonts/';
     a {
       text-decoration: none;
       color: #e82548;
-      font-family: 'Open Sans';
-      font-weight: lighter;
+      font-family: 'Roboto Condensed';
     }
   }
 
@@ -351,15 +351,17 @@ video.small-vid {
     margin: 2%;
     width: 20%;
     float: left;
+    border: 1px dashed rgba(0,0,0,0.2);
     transition: background 0.4s;
 
     &:hover {
-      background: #dedede;
+      background: #e3e3e3;
       cursor: pointer;
     }
 
     &.selected {
-      background: #ccc;
+      background: rgba(255, 77, 112, 0.1);
+      border: 1px dashed rgba(232, 37, 72, 0.4);
     }
 
     img {

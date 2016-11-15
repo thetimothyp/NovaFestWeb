@@ -8,7 +8,7 @@ $('.grid-item').on('click', function(e) {
 	var activeTrap = getTrap(activeTrapURL);
 
 	$('#trap-detail').fadeOut(400, function() {
-		$('#loading').fadeIn(200);
+		$('#loading').fadeIn(100);
 		var self = $(this);
 		$('#trap-vid-src').attr('src', activeTrap.vidURL);
 		$('#trap-vid')[0].load();
@@ -21,8 +21,6 @@ $('.grid-item').on('click', function(e) {
 			});
 		});
 	})
-
-	
 })
 
 function getTrap(imgURL) {
