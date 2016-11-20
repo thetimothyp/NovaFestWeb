@@ -42,7 +42,7 @@ var traps = [
 	{
 		name : 'PLOO',
 		imgURL : 'images/traps/poop.png',
-		desc : 'A blue interstellar poop with an appetite for flesh, this \
+		desc : 'An interstellar poop with an appetite for flesh, this \
 			radioactive turd kills players on contact.',
 		vidURL : 'images/bg.mp4'
 	},
@@ -61,13 +61,16 @@ var traps = [
 	{
 		name : 'STAR CANNON',
 		imgURL : 'images/traps/star_cannon.png',
-		desc : 'This is a Star Cannon.',
+		desc : 'Originally protection against stray space debris, \
+			these cannons have been refitted for use in the Novafest arena. Try \
+			not to get shot.',
 		vidURL : 'images/bg.mp4'
 	},
 	{
 		name : 'KITTY KANNON',
 		imgURL : 'images/traps/kitty.png',
-		desc : 'This is a Kitty Kannon.',
+		desc : 'These cosmic cats have a hankering for destruction. Armed with \
+			face lasers, they\'ll obliterate anything in the arena with glee.',
 		vidURL : 'images/bg.mp4'
 	},
 	// PUT FLAMETHROWER HERE
@@ -93,8 +96,8 @@ var traps = [
 		name : 'HELL\'S WINDOW',
 		imgURL : 'images/traps/hellsgate.png',
 		desc : 'Take a peek into Hell\'s Window and you\'re off in a \
-			blaze of glory. You\'ll lose basic motor function, but you\'ll \
-			be fast.',
+			blaze of glory. You\'ll lose basic motor function, but at least \
+			you\'ll be fast.',
 		vidURL : 'images/trap_videos/hell.mp4'
 	},
 
@@ -102,9 +105,10 @@ var traps = [
 	// GLOBAL TRAPS
 	/////////////////
 	{
-		name : 'THE GHOSTIES',
+		name : 'THE GHOSTEES',
 		imgURL : 'images/traps/ghosties.png',
-		desc : 'This is a Ghostie.',
+		desc : 'Leftover souls from past Novafest losers. With those wiggly arms, \
+			they\'re spooky enough to kill anything they touch.',
 		vidURL : 'images/bg.mp4'
 	},
 	{
