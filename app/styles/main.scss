@@ -174,6 +174,16 @@ $icon-font-path: '../fonts/';
 .custom {
   max-width: 1080px; 
   margin: 0 auto;
+
+  hr {
+    border-top: 1px solid #e82548;
+    width: 10%;
+  }
+
+  h2, h4 {
+    font-family: 'Roboto Condensed';
+    color: #e82548;
+  }
 }
 
 .text {
@@ -292,18 +302,14 @@ video.small-vid {
   }
 }
 
+///////////////
+//
+// TEAM
+//
+///////////////
+
 #team {
   text-align: center;
-
-  hr {
-    border-top: 1px solid #e82548;
-    width: 10%;
-  }
-
-  h2, h4 {
-    font-family: 'Roboto Condensed';
-    color: #e82548;
-  }
 
   h2 {
     padding-top: 30px;
@@ -330,6 +336,12 @@ video.small-vid {
     }
   }
 }
+
+///////////////
+//
+// HAZARDS
+//
+///////////////
 
 #hazards {
   text-align: center;
@@ -388,6 +400,51 @@ video.small-vid {
     width: 40%;
     padding: 20px;
   }
+}
+
+///////////////
+//
+// CONTACT
+//
+///////////////
+
+#contact {
+  background: #222;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  
+  p {
+    color: #ccc;
+  }
+
+  .social {
+    margin-top: 4%;
+    img {
+      width: 15%;
+      margin: 5px;
+      padding: 5px;
+      background: #444;
+      transition: background 0.3s;
+
+      &:hover {
+        background: #e82548;
+      }
+    }
+  }
+
+  .logo {
+    img {
+      width: 60%;
+    }
+  }
+  
+}
+
+#footer {
+  background: #111;
+  color: #555;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
 }
 
 @media (max-width: 480px) {
