@@ -44,14 +44,14 @@ var traps = [
 		imgURL : 'images/traps/poop.png',
 		desc : 'An interstellar poop with an appetite for flesh, this \
 			radioactive turd kills players on contact.',
-		vidURL : 'images/bg.mp4'
+		vidURL : 'images/trap_videos/poop.mp4'
 	},
 	{
 		name : 'MINITHULU',
 		imgURL : 'images/traps/jelly.png',
 		desc : 'These miniature acolytes of the Great Mechathulu are deadlier \
 			than they look; those who touch these will meet a shocking end.',
-		vidURL : 'images/bg.mp4'
+		vidURL : 'images/trap_videos/jelly.mp4'
 	},
 	// PUT TESLA COIL HERE
 
@@ -64,14 +64,14 @@ var traps = [
 		desc : 'Originally protection against stray space debris, \
 			these cannons have been refitted for use in the Novafest arena. Try \
 			not to get shot.',
-		vidURL : 'images/bg.mp4'
+		vidURL : 'images/trap_videos/starcannon.mp4'
 	},
 	{
 		name : 'KITTY KANNON',
 		imgURL : 'images/traps/kitty.png',
 		desc : 'These cosmic cats have a hankering for destruction. Armed with \
 			face lasers, they\'ll obliterate anything in the arena with glee.',
-		vidURL : 'images/bg.mp4'
+		vidURL : 'images/trap_videos/laser.mp4'
 	},
 	// PUT FLAMETHROWER HERE
 
@@ -109,14 +109,14 @@ var traps = [
 		imgURL : 'images/traps/ghosties.png',
 		desc : 'Leftover souls from past Novafest losers. With those wiggly arms, \
 			they\'re spooky enough to kill anything they touch.',
-		vidURL : 'images/bg.mp4'
+		vidURL : 'images/trap_videos/ghostees.mp4'
 	},
 	{
 		name : 'COSMIC FLATULENCE',
 		imgURL : 'images/traps/creep.png',
 		desc : 'This cosmic gas has welcomed more than a few interstellar \
 			travelers into its toxic embrace. Don\'t touch it.',
-		vidURL : 'images/bg.mp4'
+		vidURL : 'images/trap_videos/gas.mp4'
 	}
 
 	// PUT CENTRAL FLAMETHROWER HERE
